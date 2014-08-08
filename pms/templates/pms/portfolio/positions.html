@@ -1,0 +1,17 @@
+<script type="text/javascript" charset="utf-8">
+var positions = {
+	container:"positions",
+	view:"datatable",
+        columnWidth:100,
+		columns:[
+            { id:"type", header:"Type" },
+            { id:"date", header:"Date", format:webix.i18n.dateFormatStr },
+            { id:"symbol", header:"Symbol" },
+            { id:"company", header:"Company Name", width: 300 },
+		],
+        select: 'row',
+        scrollX:false,
+        scrollY:true,
+        data: positions
+    }
+</script>

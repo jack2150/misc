@@ -1,0 +1,34 @@
+<script type="text/javascript" charset="utf-8">
+{% include 'pms/index2/format_column.js' %}
+
+var mix_data = {{ mix_all|safe }};
+
+var mix_ui = {
+    container:"testA",
+    view: "treetable",
+    columns: [
+        { id:"name", header:"Name", width: 320, sort:"string",
+            template:"{common.treetable()} #value#" },
+        { id:"quantity", header:"Qty", sort:"int", format:intOnly },
+        { id:"days", header:"Days", sort:"int", format:intOnly },
+        { id:"trade_price", header:"Trade Price", sort:"int", format:numOnly },
+        { id:"mark", header:"Mark", sort:"int", format:numOnly },
+        { id:"mark_change", header:"M Change", sort:"int", format:numWithPositive },
+        { id:"delta", header:"Delta", sort:"int", format:numWithPositive },
+        { id:"gamma", header:"Gamma", sort:"int", format:numWithPositive },
+        { id:"theta", header:"Theta", sort:"int", format:numWithPositive },
+        { id:"vega", header:"Vega", sort:"int", format:numWithPositive },
+        { id:"pct_change", header:"% Change", sort:"int", format:pctChange },
+        { id:"pl_open", header:"P/L Open", sort:"int", format:numWithPositive },
+        { id:"pl_day", header:"P/L Day", sort:'int', format:numWithPositive },
+        { id:"bp_effect", header:"BP Effect", sort:'int', format:bpEffect }
+    ],
+    scrollY: true,
+    scrollX: true,
+    autoheight:true,
+    autowidth:true,
+
+    data: mix_data
+};
+</script>
+

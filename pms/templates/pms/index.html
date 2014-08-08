@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% for symbol in portfolio %}
+<table>
+<tr>
+    <th>Instrument</th>
+    <th>Qty</th>
+    <th>Days</th>
+    <th>TradePrice</th>
+    <th>Mark</th>
+    <th>MarkChange</th>
+    <th>Delta</th>
+    <th>Gamma</th>
+    <th>Theta</th>
+    <th>Vega</th>
+    <th>% Change</th>
+    <th>P/L Open</th>
+    <th>P/L Day</th>
+    <th>BP Effect</th>
+</tr>
+
+{% include "pms/portfolio/symbol.html" %}
+{% include "pms/portfolio/instrument.html" %}
+{% include "pms/portfolio/stock.html" %}
+{% include "pms/portfolio/options.html" %}
+
+</table>
+{% endfor %}
+{% endblock %}
+

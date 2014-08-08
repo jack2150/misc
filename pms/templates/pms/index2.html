@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="testA" style='width:250px; height:250px;'></div>
+<div id="test1"></div>
+
+
+{% include 'pms/index2/mix_all.html' %}
+{% include 'pms/index2/overall.html' %}
+
+{% include 'pms/import/select_files.html' %}
+
+<script type="text/javascript" charset="utf-8">
+webix.ui(mix_ui);
+</script>
+{% endblock %}

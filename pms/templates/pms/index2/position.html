@@ -1,0 +1,15 @@
+<script type="text/javascript" charset="utf-8">
+var position_data = {{ positions|safe }};
+
+var position_ui = {
+    view: "datatable",
+    columns: [
+        { id:"date", header:"Date" },
+        { id:"symbol", header:"Symbol" },
+        { id:"company", header:"Company" }
+    ],
+    data: position_data,
+    scrollY: true,
+    scrollX: false
+};
+</script>

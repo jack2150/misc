@@ -1,0 +1,26 @@
+<script type="text/javascript" charset="utf-8">
+var stock_data = {{ stocks|safe }};
+
+var stock_ui = {
+    view: "datatable",
+    columns: [
+        { id:"name", header:"Name", width: 230 },
+        { id:"quantity", header:"Qty" },
+        { id:"days", header:"Days" },
+        { id:"trade_price", header:"Trade Price" },
+        { id:"mark", header:"Mark" },
+        { id:"mark_change", header:"Mark Change" },
+        { id:"delta", header:"Delta" },
+        { id:"gamma", header:"Gamma" },
+        { id:"theta", header:"Theta" },
+        { id:"vega", header:"Vega" },
+        { id:"pct_change", header:"% Change" },
+        { id:"pl_open", header:"P/L Open" },
+        { id:"pl_day", header:"P/L Day" },
+        { id:"bp_effect", header:"BP Effect" }
+    ],
+    data: stock_data,
+    scrollY: true,
+    scrollX: true
+};
+</script>

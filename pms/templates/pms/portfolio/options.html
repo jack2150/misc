@@ -1,0 +1,18 @@
+{% for option in symbol.options %}
+<tr>
+    <td>{{ option.option }}</td>
+    <td>{{ option.quantity }}</td>
+    <td>{{ option.days }}</td>
+    <td>{{ option.trade_price }}</td>
+    <td>{{ option.mark }}</td>
+    <td>{{ option.mark_change }}</td>
+    <td>{{ option.delta }}</td>
+    <td>{{ option.gamma }}</td>
+    <td>{{ option.theta }}</td>
+    <td>{{ option.vega }}</td>
+    <td>{{ option.pct_change }}</td>
+    <td>{{ option.pl_open }}</td>
+    <td>{{ option.pl_day }}</td>
+    <td>{{ option.bp_effect }}</td>
+</tr>
+{% endfor %}

@@ -1,0 +1,48 @@
+<script type="text/javascript" charset="utf-8">
+var files_tree = {
+
+    id: 'files_tree',
+    view:"tree",
+    activeTitle:true,
+    autoheight: true,
+    select:true,
+    data: {{ files|safe }}
+};
+
+var import_button = {
+    view:"button",
+    value:"Import",
+    container:"import_button",
+    width: 100,
+    on:{
+        "onItemClick": function(id, e, trg) {
+            var file_date = $$('files_tree').getSelectedId();
+            if (file_date != '-1' && file_date) {
+                link = "{% url 'import_position' %}" + file_date + '/';
+                //webix.send(link, null, "GET");
+                webix.ajax(link, function(text){
+                    webix.alert(
+                        {
+                            title:"Import Completed",
+                            text: text,
+                            width: "500px",
+                            callback: function(){
+                                webix.send("{% url 'import_select_date' %}", null, "GET");
+                            }
+                        }
+                    ); //show server side response
+                });
+
+
+
+
+
+
+            }
+            else {
+                webix.message({ type:"error", text:"Please select file to import!" });
+            }
+        }
+    }
+};
+</script>

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="testA" style='width: 400px; height:250px;'></div>
+<div id="import_button"></div>
+
+{% include 'pms/import/select_files.html' %}
+
+<script type="text/javascript" charset="utf-8">
+webix.ui({
+    container:"testA",
+    rows: [
+        { type: 'header', template:"Import Files", autoheight:true},
+        files_tree
+    ]
+});
+webix.ui(import_button);
+</script>
+{% endblock %}

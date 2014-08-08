@@ -1,0 +1,9 @@
+<table>
+    {% load humanize %}
+    <tr><th>OVERALL P/L YTD:</th><td>{{ overall.pl_ytd|floatformat:2|intcomma }}</td></tr>
+    <tr><th>CASH & SWEEP VEHICLE:</th><td>{{ overall.cash_sweep|floatformat:2|intcomma }}</td></tr>
+    <tr><th>BP ADJUSTMENT:</th><td>{{ overall.bp_adjustment|floatformat:2|intcomma }}</td></tr>
+    <tr><th>OVERNIGHT FUTURES BP:</th><td>{{ overall.futures_bp|floatformat:2|intcomma }}</td></tr>
+    <tr><th>AVAILABLE DOLLARS:</th><td>{{ overall.available_dollars|floatformat:2|intcomma }}</td></tr>
+</table>
+{% include "pms/portfolio/overall.html" %}

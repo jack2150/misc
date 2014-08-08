@@ -1,0 +1,25 @@
+<script type="text/javascript" charset="utf-8">
+var overall_data = {{ overall|safe }};
+
+var overall_ui = {
+    container:"test1",
+    view:"property",
+    id:"sets",
+    elements:[
+        { label:"CASH SWEEP", type:"text", id:"width",
+            value: overall_data.cash_sweep, format:webix.i18n.priceFormat },
+        { label:"P/L YTD", type:"text", id:"width",
+            value: overall_data.pl_ytd, format:webix.i18n.priceFormat },
+        { label:"BP ADJUST", type:"text", id:"width",
+            value: overall_data.futures_bp, format:webix.i18n.priceFormat },
+        { label:"FUTURES BP", type:"text", id:"width",
+            value: overall_data.bp_adjustment, format:webix.i18n.priceFormat },
+        { label:"AVAILABLE $", type:"text", id:"width",
+            value: overall_data.available_dollars, format:webix.i18n.priceFormat },
+        { label:"End of Day", type:"text", id:"width",
+            value: overall_data.date, format:webix.i18n.dateFormatStr },
+    ],
+    autoheight:true,
+    autowidth:true,
+};
+</script>

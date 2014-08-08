@@ -1,0 +1,98 @@
+<script type="text/javascript" charset="utf-8">
+var mix_data = {{ mix_all|safe }};
+
+function intOnly(theNumber)
+{
+    if (theNumber == '-' || theNumber == 0) {
+        return '-';
+    }
+    else {
+        return Number(theNumber);
+    }
+}
+
+function numOnly(theNumber)
+{
+    if (theNumber == '-' || theNumber == 0) {
+        return '-';
+    }
+    else {
+        if(theNumber > 0){
+            return Number(theNumber).toFixed(2);
+        }
+        else{
+            return Number(theNumber).toFixed(2);
+        }
+    }
+}
+
+function numWithPositive(theNumber)
+{
+    if (theNumber == '-' || theNumber == 0) {
+        return '-';
+    }
+    else {
+        if(theNumber > 0){
+            return "+" + Number(theNumber).toFixed(2);
+        }
+        else{
+            return Number(theNumber).toFixed(2);
+        }
+    }
+}
+
+function bpEffect(theNumber)
+{
+    if (theNumber == '-' || theNumber == 0) {
+        return '-';
+    }
+    else {
+        if(theNumber > 0){
+            return "+" + Number(theNumber).toFixed(2);
+        }
+        else{
+            theNumber *= -1;
+            return "(" + Number(theNumber).toFixed(2) + ")";
+        }
+    }
+}
+
+
+function pctChange(theNumber)
+{
+    if (theNumber == '-' || theNumber == 0) {
+        return '-';
+    }
+    else {
+        if(theNumber > 0){
+            return "+" + Number(theNumber).toFixed(2) + "%";
+        }
+        else{
+            return Number(theNumber).toFixed(2) + "%";
+        }
+    }
+}
+
+var mix_ui = {
+    view: "table",
+    columns: [
+        { id:"name", header:"Name", width: 280, sort:"string" },
+        { id:"quantity", header:"Qty", sort:"int", format:intOnly },
+        { id:"days", header:"Days", sort:"int", format:intOnly },
+        { id:"trade_price", header:"Trade Price", sort:"int", format:numOnly },
+        { id:"mark", header:"Mark", sort:"int", format:numOnly },
+        { id:"mark_change", header:"M Change", sort:"int", format:numWithPositive },
+        { id:"delta", header:"Delta", sort:"int", format:numWithPositive },
+        { id:"gamma", header:"Gamma", sort:"int", format:numWithPositive },
+        { id:"theta", header:"Theta", sort:"int", format:numWithPositive },
+        { id:"vega", header:"Vega", sort:"int", format:numWithPositive },
+        { id:"pct_change", header:"% Change", sort:"int", format:pctChange },
+        { id:"pl_open", header:"P/L Open", sort:"int", format:numWithPositive },
+        { id:"pl_day", header:"P/L Day", sort:'int', format:numWithPositive },
+        { id:"bp_effect", header:"BP Effect", sort:'int', format:bpEffect }
+    ],
+    data: mix_data,
+    scrollY: true,
+    scrollX: true
+};
+</script>

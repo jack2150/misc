@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div>
+{% if found %}
+    <p>File at below have save into database!</p>
+    <p>{{ path }}</p>
+    <p>&#60;Positions: {{ instrument_count }}&#62; &#60;Options: {{ option_count }}&#62;</p>
+{% else %}
+    <p>Position file with Date "{{ date }}" not found on folder!!!</p>
+{% endif %}
+</div>
+{% endblock %}
+
