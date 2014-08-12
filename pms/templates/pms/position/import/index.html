@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="position_select_files"></div>
+
+<script type="text/javascript" charset="utf-8">
+var position_files = {{ files|safe }};
+
+{% include 'pms/position/menu.js' %}
+{% include 'pms/position/import/filetree.js' %}
+{% include 'pms/position/import/button.js' %}
+
+
+
+webix.ui({
+    container:"position_select_files",
+    type: 'space',
+    width: "100%",
+    cols: [
+        position_menu,
+        {
+            rows: [
+                { type: 'header', template:"Import Files", autoheight:true },
+                files_tree,
+                import_button
+            ],
+            width: 500
+        }
+    ]
+});
+
+// use for select menu
+$$('position_menu').select("position_import_select");
+
+</script>
+{% endblock %}

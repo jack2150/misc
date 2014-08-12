@@ -1,0 +1,17 @@
+﻿This document was exported from the paperMoney® platform which provides a simulated trading environment. All data contained herein is for educational and entertainment purposes only. TD Ameritrade its subsidiaries and/or affiliates are not responsible for the accuracy of any of these exported data.
+
+Position Statement for D-12644969 (margin) on 8/11/14 21:52:05
+
+None
+Instrument,Qty,Days,Trade Price,Mark,Mrk Chng,Delta,Gamma,Theta,Vega,% Change,P/L Open,P/L Day,BP Effect
+
+AAPL,+100,,94.93,95.2149,+.4749,100.00,.00,.00,.00,+0.50%,$28.49,$28.49,"$4,760.75"
+APPLE INC COM,+100,,94.93,95.2149,+.4749,100.00,.00,.00,.00,,$28.49,$28.49,
+FB,-100,,73.58,73.49,+.43,-100.00,.00,.00,.00,+0.59%,$9.00,$9.00,"($11,023.50)"
+FACEBOOK INC COM,-100,,73.58,73.49,+.43,-100.00,.00,.00,.00,,$9.00,$9.00,
+
+Cash & Sweep Vehicle,"$97,844.89"
+OVERALL P/L YTD,$37.49
+BP ADJUSTMENT,$0.00
+OVERNIGHT FUTURES BP,"$91,582.14"
+AVAILABLE DOLLARS,"$91,582.14"

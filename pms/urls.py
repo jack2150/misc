@@ -4,18 +4,27 @@ from pms import views
 
 urlpatterns = patterns(
     '',
-    url(r'^$', views.index, name='pms'),
 
-    # view portfolio data table
-    url(r'^index', views.index, name='index'),
-    url(r'^test1', views.index2, name='index2'),
+    # position: view
+    url(r'^position/$', views.position,
+        name='position_view'),
+    url(r'^position/(?P<date>[-\w]+)/$', views.position,
+        name='position_view'),
 
-    # select csv files for import
-    url(r'^import/select', views.import_select_date, name='import_select_date'),
+    # position: select files to import
+    url(r'^position/import/select/$', views.position_select_files,
+        name='position_select_files'),
 
-    # import data into db
-    url(r'^import/single/$', views.import_position, name='import_position'),
-    url(r'^import/single/(?P<date>[-\w]+)/$', views.import_position, name='import_position'),
+    # position: import file to db
+    url(r'^import/single/$', views.position_import_single,
+        name='position_import_single'),
+    url(r'^import/single/(?P<date>[-\w]+)/$', views.position_import_single,
+        name='position_import_single'),
 
+    # position: ajax check date exists
+    url(r'^position/exists/$', views.position_exists,
+        name='position_exists'),
+    url(r'^position/exists/(?P<date>[-\w]+)/$', views.position_exists,
+        name='position_exists'),
 )
 

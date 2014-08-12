@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="position"></div>
+
+<script type="text/javascript" charset="utf-8">
+{% include 'pms/position/menu.js' %}
+
+{% if overall == False %}
+    {% include 'pms/position/view/changedate.js' %}
+
+    var position_not_found = {
+        container: 'position',
+        type: 'space',
+        cols: [
+            {
+                type: 'space',
+                rows: [
+                    position_menu,
+                    change_date
+                ],
+                paddingX: 0,
+                paddingY: 0
+            },
+            {
+                rows: [
+                    {type: 'header', template: 'Position View'},
+                    {template: 'Date {{ date }} not found in db! Please import position!'},
+                ]
+
+            }
+        ]
+    };
+
+    webix.ui(position_not_found);
+
+{% else %}
+    var overall_data = {{ overall|safe }};
+    var position_data = {{ mix_all|safe }};
+
+    {% include 'pms/position/view/format.js' %}
+    {% include 'pms/position/view/position.js' %}
+    {% include 'pms/position/view/overall.js' %}
+    {% include 'pms/position/view/changedate.js' %}
+
+    var position = {
+        container: 'position',
+        type: 'space',
+        cols: [
+            {
+                type: 'space',
+                rows: [
+                    position_menu,
+                    overall_ui,
+                    change_date
+                ],
+                paddingX: 0,
+                paddingY: 0
+            },
+            {
+                rows: [
+                    position_ui
+                ]
+            }
+        ]
+    };
+
+    webix.ui(position);
+{% endif %}
+
+// set value for calendar
+$$("position_date").setValue(new Date("{{ date }}"));
+
+// use for select menu
+$$('position_menu').select("position_view");
+</script>
+{% endblock %}

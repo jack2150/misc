@@ -1,90 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd37172-768f-4749-bef4-415837b032b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/PTS-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/PTS-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/PTS-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/files/positions/2014-08-01-PositionStatement.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/files/positions/2014-08-02-PositionStatement.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/legacy/excanvas/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/legacy/excanvas/COPYING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Jack.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/legacy/excanvas/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/air.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/air.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/aircompact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/aircompact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/clouds.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/clouds.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/compact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/compact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/legacy/excanvas/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/font-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/format_column.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/glamour.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/glamour.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/header_ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/import/import_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/portfolio/instrument.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/instruments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/metro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/metro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/mix2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/mix_all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/portfolio/options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/overall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/portfolio/overall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/position.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/portfolio/positions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/import/select_date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/import/select_files.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/portfolio/stock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/stocks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/portfolio/symbol.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/terrace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/terrace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/touch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/touch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/web.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/skins/debug/web.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/webix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/webix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/webix/webix_debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/wsgi.py" />
+    <list default="true" id="ccd37172-768f-4749-bef4-415837b032b4" name="Default" comment="first">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/files/positions/tests/2014-03-10-stock_only.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/files/positions/tests/2014-03-11-stock_options_combine.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/files/positions/tests/2014-08-13-one-leg-option.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/import/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/view/changedate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/import/filetree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/view/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/import_pos.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/import/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/view/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/open_csv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/open_dir.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/view/overall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/templates/pms/position/view/position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/spreads.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/test_spreads.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pms/controls/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\PycharmProjects\misc\pms\controls.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Jack.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Jack.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/templates/pms/index2.html" afterPath="$PROJECT_DIR$/pms/templates/pms/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/models.py" afterPath="$PROJECT_DIR$/pms/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/templates/pms/index2/overall.html" afterPath="$PROJECT_DIR$/pms/templates/pms/index2/overall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/templates/pms/import/select_files.html" afterPath="$PROJECT_DIR$/pms/templates/pms/import/select_files.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/tests.py" afterPath="$PROJECT_DIR$/pms/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/urls.py" afterPath="$PROJECT_DIR$/pms/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms/views.py" afterPath="$PROJECT_DIR$/pms/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/webix/webix_debug.js" afterPath="$PROJECT_DIR$/static/webix/webix_debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="misc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,6 +47,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestStockPos.coverage" NAME="Test: pms.tests.TestStockPos Coverage Results" MODIFIED="1407123647956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestViewControl.coverage" NAME="Test: pms.tests.TestViewControl Coverage Results" MODIFIED="1407730370478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestImportPosition_test_to_json.coverage" NAME="Test: pms.tests.TestImportPosition.test_to_json Coverage Results" MODIFIED="1407208165893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestOption.coverage" NAME="Test: pms.tests.TestOption Coverage Results" MODIFIED="1407123652295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestInstrumentPos.coverage" NAME="Test: pms.tests.TestInstrumentPos Coverage Results" MODIFIED="1407123644523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -110,13 +61,16 @@
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestOverallPos_test_save_raw_data.coverage" NAME="Test: pms.tests.TestOverallPos.test_save_raw_data Coverage Results" MODIFIED="1407123735295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSavePosition.coverage" NAME="Test: pms.tests.TestSavePos Coverage Results" MODIFIED="1406950114468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSavePos_setUp.coverage" NAME="Test: pms.tests.TestSavePos.setUp Coverage Results" MODIFIED="1406950133204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestViews.coverage" NAME="Test: pms.tests.TestViews Coverage Results" MODIFIED="1407123899508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSpreads.coverage" NAME="Test: pms.tests.TestSpreads Coverage Results" MODIFIED="1407853709054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestViews.coverage" NAME="Test: pms.tests.TestViews Coverage Results" MODIFIED="1407572815883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestOpenDir.coverage" NAME="Test: pms.tests.TestOpenDir Coverage Results" MODIFIED="1407407563214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestImportPosition_test_save_overall.coverage" NAME="Test: pms.tests.TestImportPosition.test_save_overall Coverage Results" MODIFIED="1407124474263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestFormatCSV.coverage" NAME="Test: pms.tests.TestFormatCSV Coverage Results" MODIFIED="1406935432325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestImportPosition_test_save_position.coverage" NAME="Test: pms.tests.TestImportPosition.test_save_position Coverage Results" MODIFIED="1407124469840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSavePos_test_stock_save.coverage" NAME="Test: pms.tests.TestSavePos.test_stock_save Coverage Results" MODIFIED="1406953982274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSpreads2.coverage" NAME="Test: pms.tests.TestSpreads2 Coverage Results" MODIFIED="1407867295681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSavePos_test_instrument_save.coverage" NAME="Test: pms.tests.TestSavePos.test_instrument_save Coverage Results" MODIFIED="1406953978826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/misc$Test__pms_tests_TestSpreads_test_type_identify.coverage" NAME="Test: pms.tests.TestSpreads.test_type_identify Coverage Results" MODIFIED="1407762028542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -134,7 +88,42 @@
     <favorites_list name="misc" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="spreads.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pms/controls/spreads.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="354" column="32" selection-start="14001" selection-end="14001" vertical-scroll-proportion="0.504717" vertical-offset="6150" max-vertical-offset="7670">
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#3274#3555#0" expanded="false" />
+                <element signature="e#5840#6332#0" expanded="false" />
+                <element signature="e#6377#10458#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_spreads.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pms/controls/test_spreads.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="242" column="0" selection-start="9134" selection-end="9134" vertical-scroll-proportion="0.0" vertical-offset="5682" max-vertical-offset="7254">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="control.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pms/control.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="30" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="5864" max-vertical-offset="11310">
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -152,22 +141,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/stocks.html" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/options.html" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/instrument.html" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/mix2.html" />
-        <option value="$PROJECT_DIR$/pms/models.py" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/format_column.js" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/overall.html" />
-        <option value="$PROJECT_DIR$/pms/tests.py" />
+        <option value="$PROJECT_DIR$/pms/templates/pms/position/menu.js" />
+        <option value="$PROJECT_DIR$/pms/templates/pms/position/view/overall.js" />
         <option value="$PROJECT_DIR$/pms/controls.py" />
-        <option value="$PROJECT_DIR$/pms/urls.py" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/import/select_date.html" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2.html" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/index2/mix_all.html" />
+        <option value="$PROJECT_DIR$/pms/controls/views.py" />
+        <option value="$PROJECT_DIR$/pms/controls/import_pos.py" />
+        <option value="$PROJECT_DIR$/pms/controls/open_csv.py" />
+        <option value="$PROJECT_DIR$/pms/controls/open_dir.py" />
+        <option value="$PROJECT_DIR$/pms/controls/tests.py" />
+        <option value="$PROJECT_DIR$/pms/tests.py" />
         <option value="$PROJECT_DIR$/pms/views.py" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/import/select_files.html" />
-        <option value="$PROJECT_DIR$/pms/templates/pms/import/import_done.html" />
+        <option value="dbtable:/eb9429a4/05195a1e-fb2e-4930-984c-8cf723a4ae8a/..pms_optionpos" />
+        <option value="$PROJECT_DIR$/pms/models.py" />
+        <option value="$PROJECT_DIR$/pms/files/positions/tests/2014-03-10-stock_only.csv" />
+        <option value="$PROJECT_DIR$/pms/control.py" />
+        <option value="$PROJECT_DIR$/pms/controls/test_spreads.py" />
+        <option value="$PROJECT_DIR$/pms/controls/spreads.py" />
       </list>
     </option>
   </component>
@@ -184,7 +173,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -203,7 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,95 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="import" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,12 +274,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="positions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,13 +333,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jack\PycharmProjects\misc\pms\templates\pms\index2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jack\PycharmProjects\misc\pms\files\positions\tests" />
       <recent name="C:\Users\Jack\PycharmProjects\misc\pms\files\positions" />
+      <recent name="C:\Users\Jack\PycharmProjects\misc\pms\templates\pms\position" />
+      <recent name="C:\Users\Jack\PycharmProjects\misc\pms\templates\pms\position\view" />
       <recent name="C:\Users\Jack\PycharmProjects\misc\pms\templates\pms" />
-      <recent name="C:\Users\Jack\PycharmProjects\misc\static" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.select_date.html">
+  <component name="RunManager" selected="Django tests.Test: pms.tests.TestSpreads2">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -871,26 +807,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="select_date.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" engineId="firefox" uri="http://localhost:8000/pms/import/select">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="import_done.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:8000/pms/import/single/2014-08-02">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" engineId="firefox" uri="http://localhost:8000/pms/index">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" engineId="firefox" uri="http://localhost:8000/pms/test1">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Test: pms.tests.TestOverallPos.test_to_json" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -913,6 +829,79 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Test: pms.tests.TestViewControl" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="misc" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="pms.tests.TestViewControl.test_day_summary" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: pms.tests.TestSpreads" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="misc" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="pms.controls.test_spreads.TestSpreads.test_is_stock_options_combine_with_imported_file" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: pms.tests.TestSpreads2" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="misc" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="pms.controls.test_spreads.TestSpreads.test_pl_stock_options_combine_with_imported_file" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:8000/pms/position/import/select/">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <list size="17">
       <item index="0" class="java.lang.String" itemvalue="Django server.misc" />
       <item index="1" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestOpenDir" />
@@ -926,11 +915,11 @@
       <item index="9" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestImportPosition.test_save_position" />
       <item index="10" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestOverallPos.test_save_raw_data" />
       <item index="11" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestImportPosition.test_save_overall" />
-      <item index="12" class="java.lang.String" itemvalue="JavaScript Debug.select_date.html" />
-      <item index="13" class="java.lang.String" itemvalue="JavaScript Debug.import_done.html" />
-      <item index="14" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="15" class="java.lang.String" itemvalue="JavaScript Debug.test1.html" />
-      <item index="16" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestOverallPos.test_to_json" />
+      <item index="12" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestOverallPos.test_to_json" />
+      <item index="13" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestViewControl" />
+      <item index="14" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestSpreads" />
+      <item index="15" class="java.lang.String" itemvalue="Django tests.Test: pms.tests.TestSpreads2" />
+      <item index="16" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -957,6 +946,11 @@
       <created>1406934346409</created>
       <updated>1406934346409</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1407521034418</created>
+      <updated>1407521034419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -981,46 +975,48 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19111349" sideWeight="0.67045456" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22055675" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.23863636" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="-21" y="479" width="1254" height="590" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26284796" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.36704546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="-21" y="479" width="1254" height="590" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29068524" sideWeight="0.42727274" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57954544" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19111349" sideWeight="0.67045456" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.23863636" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="-21" y="479" width="1254" height="590" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.36704546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="-21" y="479" width="1254" height="590" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29068524" sideWeight="0.42727274" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22055675" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2537473" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1045,102 +1041,118 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2/instruments.html">
+    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="0" selection-end="850" vertical-scroll-proportion="-11.885715" vertical-offset="0" max-vertical-offset="806" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.18327183" vertical-offset="149" max-vertical-offset="962" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2/options.html">
+    <entry file="file://$PROJECT_DIR$/pms/controls/import_pos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="190" selection-end="190" vertical-scroll-proportion="0.19188192" vertical-offset="0" max-vertical-offset="813" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pms/files/positions/2014-08-02-PositionStatement.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pms/controls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.58208954" vertical-offset="468" max-vertical-offset="2938" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2/mix2.html">
+    <entry file="file://$PROJECT_DIR$/pms/controls/open_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="9" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.9360394" vertical-offset="1761" max-vertical-offset="2678" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2/format_column.js">
+    <entry file="file://$PROJECT_DIR$/pms/controls/open_dir.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="1" selection-start="0" selection-end="1361" vertical-scroll-proportion="1.1839622" vertical-offset="816" max-vertical-offset="1976" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2/overall.html">
+    <entry file="file://$PROJECT_DIR$/pms/controls/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1023" selection-end="1032" vertical-scroll-proportion="0.7675277" vertical-offset="0" max-vertical-offset="813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="37" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.0" vertical-offset="2467" max-vertical-offset="11284" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pms/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="20" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.5518868" vertical-offset="1248" max-vertical-offset="9828" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/controls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.5212264" vertical-offset="312" max-vertical-offset="5200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="0" selection-end="344" vertical-scroll-proportion="0.4797048" vertical-offset="0" max-vertical-offset="813">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="259" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/import/select_date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="422" selection-end="422" vertical-scroll-proportion="-13.3714285" vertical-offset="0" max-vertical-offset="650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/index2/mix_all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="80" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-15.6" vertical-offset="0" max-vertical-offset="1040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/import/select_files.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="43" selection-start="840" selection-end="840" vertical-scroll-proportion="-12.828571" vertical-offset="253" max-vertical-offset="1378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pms/templates/pms/import/import_done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.4477245" vertical-offset="0" max-vertical-offset="813">
-          <folding />
-        </state>
+        <state line="3" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="0.091981135" vertical-offset="0" max-vertical-offset="11830" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="35" selection-start="1950" selection-end="1962" vertical-scroll-proportion="0.7665094" vertical-offset="936" max-vertical-offset="4654">
+        <state line="4" column="21" selection-start="236" selection-end="236" vertical-scroll-proportion="0.12264151" vertical-offset="0" max-vertical-offset="3198">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/eb9429a4/05195a1e-fb2e-4930-984c-8cf723a4ae8a/..pms_optionpos">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/files/positions/tests/2014-03-10-stock_only.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="72" selection-start="548" selection-end="559" vertical-scroll-proportion="0.22636816" vertical-offset="0" max-vertical-offset="804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/files/positions/2014-08-01-PositionStatement.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/files/positions/tests/2014-03-11-stock_options_combine.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.39054728" vertical-offset="314" max-vertical-offset="1430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="405" column="0" selection-start="14613" selection-end="14613" vertical-scroll-proportion="4.212264" vertical-offset="6958" max-vertical-offset="11388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/controls/test_spreads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="0" selection-start="9134" selection-end="9134" vertical-scroll-proportion="0.0" vertical-offset="5682" max-vertical-offset="7254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="30" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="5864" max-vertical-offset="11310">
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms/controls/spreads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="354" column="32" selection-start="14001" selection-end="14001" vertical-scroll-proportion="0.504717" vertical-offset="6150" max-vertical-offset="7670">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#3274#3555#0" expanded="false" />
+            <element signature="e#5840#6332#0" expanded="false" />
+            <element signature="e#6377#10458#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

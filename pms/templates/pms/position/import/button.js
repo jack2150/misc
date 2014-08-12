@@ -1,18 +1,6 @@
-<script type="text/javascript" charset="utf-8">
-var files_tree = {
-
-    id: 'files_tree',
-    view:"tree",
-    activeTitle:true,
-    autoheight: true,
-    select:true,
-    data: {{ files|safe }}
-};
-
 var import_button = {
     view:"button",
     value:"Import",
-    container:"import_button",
     width: 100,
     on:{
         "onItemClick": function(id, e, trg) {
@@ -30,7 +18,7 @@ var import_button = {
                                 webix.send("{% url 'position_select_files' %}", null, "GET");
                             }
                         }
-                    ); //show server side response
+                    );
                 });
             }
             else {
@@ -39,4 +27,3 @@ var import_button = {
         }
     }
 };
-</script>

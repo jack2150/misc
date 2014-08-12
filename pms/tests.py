@@ -1,18 +1,17 @@
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from django.core import serializers
 from datetime import datetime
 from misc.settings import BASE_DIR
-
-
-from controls import OpenDir, OpenCSV, ImportPosition
+from control import OpenDir, OpenCSV, ImportPosition, ViewControl
 from models import InstrumentPos, StockPos, OptionPos, Option, Position, OverallPos
 
-test_file = BASE_DIR + r'\pms\files\positions\2014-08-02-PositionStatement.csv'
+test_file = BASE_DIR + r'\pms\files\positions\2014-08-01-PositionStatement.csv'
+test_file2 = BASE_DIR + r'\pms\files\positions\2014-08-02-PositionStatement.csv'
 
 test_symbol = 'QCOM'
 test_company = 'QUALCOMM INC COM'
 test_date = '2014-08-01'
+test_date2 = '2014-08-02'
 test_raw_data = {
     'Instrument': {'mark_change': '', 'name': 'QCOM', 'pl_open': '$14.00',
                    'days': '', 'mark': '', 'vega': '-1.02', 'pl_day': '$14.00',
@@ -289,20 +288,6 @@ class TestImportPosition(TestCase):
         self.assertEqual(len(OverallPos.objects.all()), 1)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class TestViews(TestCase):
     def test_import_select_date(self):
         response = self.client.get(reverse('import_select_date'))
@@ -316,7 +301,7 @@ class TestViews(TestCase):
         self.assertGreater(len(response.context['files']), 1)
 
     def test_import_position(self):
-        response = self.client.get(reverse('import_position', kwargs={'date': test_date}))
+        response = self.client.get(reverse('position_import_single', kwargs={'date': test_date}))
 
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "PositionStatement")
@@ -369,4 +354,96 @@ class TestViews(TestCase):
             print o
 
         self.assertEqual(len(overall), 1)
+
+
+class TestViewControl(TestCase):
+    def setUp(self):
+        for f, d in [(test_file, test_date), (test_file2, test_date2)]:
+            oc = OpenCSV(f=f)
+            position, overall = oc.get_symbol_lines()
+            ip = ImportPosition(date=d, position=position, overall=overall)
+            ip.save_overall()
+            ip.save_position()
+
+            del oc, ip
+
+        #self.cv = ViewControl(date='2001-01-01')
+        self.cv = ViewControl(date=test_date)
+
+    def tearDown(self):
+        del self.cv
+
+    def test_get_json_data(self):
+        overall, positions = self.cv.get_json_data()
+
+        print overall
+        print positions
+
+        overall, positions = self.cv.get_json_data()
+
+        print overall
+        print positions
+
+    def test_subtract_one_day(self):
+        from datetime import datetime, timedelta
+
+        date = '2014-08-02'
+
+        data_obj = datetime.strptime(date, '%Y-%m-%d') - timedelta(days=1)
+
+        print date, data_obj
+
+        self.assertEqual(data_obj.strftime('%Y-%m-%d'), '2014-08-01')
+
+    def test_day_summary(self):
+        #pl_open = self.cv.pl_open_summary()
+
+        #for p in pl_open.keys():
+        #    print p, pl_open[p]
+
+        #pl_open_deep = self.cv.pl_open_deep_summary()
+
+        #for p in pl_open_deep.keys():
+        #    for d in pl_open_deep[p]:
+        #        print p, d, pl_open_deep[p][d]
+
+        #pl_open, pl_day = self.cv.top3positions()
+
+        #for p in pl_open.keys():
+        #    print p, pl_open[p]
+
+        #for p in pl_day.keys():
+        #    print p, pl_day[p]
+
+        columns = self.cv.instrument_describe()
+        for c in columns.keys():
+            print c, columns[c]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

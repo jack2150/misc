@@ -10,8 +10,8 @@ class Position(models.Model):
 
     columns:
     Instrument,Qty,Days,Trade Price,Mark,Mrk Chng,Delta, Gamma,
-    Theta,Vega,% Change,P/L Open,P/L Day,BP Effect, 'Right',
-    'Special', 'ExpireMonth', 'ExpireYear', 'StrikePrice', 'Contract'
+    Theta,Vega,% Change,P/L Open,P/L Day,BP Effect,
+    'Right', 'Special', 'ExpireMonth', 'ExpireYear', 'StrikePrice', 'Contract'
     """
     symbol = models.CharField(max_length=20)
     company = models.CharField(max_length=300)
@@ -341,7 +341,11 @@ class OptionPos(models.Model):
         str_json += 'gamma: %.2f, ' % self.gamma
         str_json += 'theta: %.2f, ' % self.theta
         str_json += 'vega: %.2f, ' % self.vega
-        str_json += 'pct_change: %.2f, ' % float(self.mark_change / self.trade_price * 100)
+        if self.trade_price:
+            str_json += 'pct_change: %.2f, ' % float(self.mark_change / self.trade_price * 100)
+        else:
+            str_json += 'pct_change: 0.0, '
+
         str_json += 'pl_open: %.2f, ' % self.pl_open
         str_json += 'pl_day: %.2f, ' % self.pl_day
         str_json += 'bp_effect: 0'

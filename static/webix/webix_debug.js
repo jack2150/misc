@@ -285,7 +285,7 @@ webix.require=function(module, callback, master){
 			webix._modules[module]=true;
 		} else {
 
-			if (!webix._modules[module]){	//first call
+			if (!webix._modules[module]){	//leg_identify call
 				webix._modules[module] = [[callback, master]];
 
 				webix.ajax(webix.codebase+module, function(text){
@@ -293,7 +293,7 @@ webix.require=function(module, callback, master){
 					var calls = webix._modules[module];	//callbacks
 					webix._modules[module] = true;
 					for (var i=0; i<calls.length; i++)
-						calls[i][0].call(calls[i][1]||window, !i);	//first callback get true as parameter
+						calls[i][0].call(calls[i][1]||window, !i);	//leg_identify callback get true as parameter
 				});
 			} else	//module already loading
 				webix._modules[module].push([callback, master]);
@@ -3483,7 +3483,7 @@ webix.UIManager = {
 
 	getNext: function(view, _inner_call) {
 		var cells = view.getChildViews();
-		//tab to first children
+		//tab to leg_identify children
 		if (cells.length && !_inner_call) return cells[0];
 
 		//unique case - single view without child and parent
@@ -4942,7 +4942,7 @@ webix.protoUI({
 		for (var i=0; i<collection.length; i++)
 			this._cells[i]._viewobj.style[style] = (padding||0) + "px";			
 
-		//add left offset to first cell
+		//add left offset to leg_identify cell
 		if (this._cells.length)
 			this._cells[start]._viewobj.style[contrstyle] = (contrpadding||0)+"px";
 
@@ -5308,7 +5308,7 @@ webix.MouseEvents={
 				if (id){
 					this._item_clicked = id;
 					if (this.callEvent){
-						if (!this.callEvent("on"+name,[id,e,trg])) return;		//it will be triggered only for first detected ID, in case of nested elements
+						if (!this.callEvent("on"+name,[id,e,trg])) return;		//it will be triggered only for leg_identify detected ID, in case of nested elements
 					}
 					found = true;											//set found flag
 				}
@@ -5984,7 +5984,7 @@ webix.DataMove={
 	moveDown:function(id,step){
 		return this.moveUp(id, (step||1)*-1);
 	},
-	//move item to the first position
+	//move item to the leg_identify position
 	moveTop:function(id){
 		return this.move(id,0);
 	},
@@ -8219,7 +8219,7 @@ webix.RenderStack={
 					
 				//getRange - returns all elements
 				(this._renderobj||this._dataobj).innerHTML = this.data.getRange().map(this._toHTML,this).join("");
-				this._htmlmap = null; //clear map, it will be filled at first getItemNode
+				this._htmlmap = null; //clear map, it will be filled at leg_identify getItemNode
 				this.callEvent("onAfterRender",[]);
                 var t = this._dataobj.offsetHeight;
                 
@@ -8689,7 +8689,7 @@ webix.DataMarks = {
 		next
 		previous
 		clearAll
-		first
+		leg_identify
 		last
 */
 webix.DataStore = function(){
@@ -8865,7 +8865,7 @@ webix.DataStore.prototype={
 	},
 	//converts range IDs to array of all IDs between them
 	getRange:function(from,to){		
-		//if some point is not defined - use first or last id
+		//if some point is not defined - use leg_identify or last id
 		//BEWARE - do not use empty or null ID
 		if (from)
 			from = this.getIndexById(from);
@@ -9168,7 +9168,7 @@ webix.DataStore.prototype={
 	getNextId:function(id,step){
 		return this.order[this.getIndexById(id)+(step||1)];
 	},
-	//returns ID of first element
+	//returns ID of leg_identify element
 	getFirstId:function(){
 		return this.order[0];
 	},
@@ -9649,7 +9649,7 @@ webix.protoUI({
 		page:function(obj){
 			return obj.page+1;
 		},
-		//go-to-first page button
+		//go-to-leg_identify page button
 		first:function(){
 			return this.button({ id:"first", index:webix.locale.pager.first, selected:""});
 		},
@@ -10490,7 +10490,7 @@ webix.protoUI({
 
 webix.TreeRenderStack={
 	$init:function(){
-		webix.assert(this.render,"TreeRenderStack :: Object must use RenderStack first");
+		webix.assert(this.render,"TreeRenderStack :: Object must use RenderStack leg_identify");
 	},
 	_toHTMLItem:function(obj){
 		var mark = this.data._marks[obj.id];
@@ -10605,7 +10605,7 @@ webix.TreeRenderStack={
 				//getTopRange - returns all elements on top level
 				this._dataobj.innerHTML = this._toHTMLLevel(0);
 				
-				this._htmlmap = null; //clear map, it will be filled at first getItemNode
+				this._htmlmap = null; //clear map, it will be filled at leg_identify getItemNode
 				this.callEvent("onAfterRender",[]);
 			}
 
@@ -13107,7 +13107,7 @@ webix.protoUI({
 
 						webix.animate.breakLine(line);
 						aniset.master = aniset.callback = null;
-						this._htmlmap = null; //clear map, it will be filled at first getItemNode
+						this._htmlmap = null; //clear map, it will be filled at leg_identify getItemNode
 						this._in_animation = false;
 						this.callEvent("onAfterRender",[]);
 					};
@@ -14046,7 +14046,7 @@ webix.editors.$popup = {
 
 webix.VirtualRenderStack={
 	$init:function(){
-		webix.assert(this.render,"VirtualRenderStack :: Object must use RenderStack first");
+		webix.assert(this.render,"VirtualRenderStack :: Object must use RenderStack leg_identify");
 		
 		this._htmlmap={}; //init map of rendered elements
         
@@ -14156,7 +14156,7 @@ webix.VirtualRenderStack={
 			both rendered rows and placeholders are registered in _htmlrows collection
 		*/
 
-		//position of first visible row
+		//position of leg_identify visible row
 		var t = viewport._from;
 			
 		while(t<=viewport._height){	//loop for all visible rows
@@ -14256,7 +14256,7 @@ webix.VirtualRenderStack={
 
 		var dx = Math.floor(width/t.width)||1; //at least single item per row
 		
-		var min = Math.floor(top/t.height);				//index of first visible row
+		var min = Math.floor(top/t.height);				//index of leg_identify visible row
 		var dy = Math.ceil((height+top)/t.height)-1;		//index of last visible row
 		//total count of items, paging can affect this math
 		var count = this.data.$max?(this.data.$max-this.data.$min):this.data.count();
@@ -14438,7 +14438,7 @@ webix.DataDriver.htmltable={
 	},
 	getOptions:function(){},
 
-	/*! gets header from first table row
+	/*! gets header from leg_identify table row
 	 **/
 	getConfig: function(data) {
 		var columns = [];
@@ -14763,8 +14763,8 @@ webix.Date={
 		}
 		var first_thursday = new Date(ndate.valueOf());
 		first_thursday.setDate(ndate.getDate() + (4 - nday));
-		var year_number = first_thursday.getFullYear(); // year of the first Thursday
-		var ordinal_date = Math.floor( (first_thursday.getTime() - new Date(year_number, 0, 1).getTime()) / 86400000); //ordinal date of the first Thursday - 1 (so not really ordinal date)
+		var year_number = first_thursday.getFullYear(); // year of the leg_identify Thursday
+		var ordinal_date = Math.floor( (first_thursday.getTime() - new Date(year_number, 0, 1).getTime()) / 86400000); //ordinal date of the leg_identify Thursday - 1 (so not really ordinal date)
 		var weekNumber = 1 + Math.floor( ordinal_date / 7);	
 		return weekNumber;
 	},
@@ -15546,7 +15546,7 @@ webix.protoUI({
 		this.refreshHeaderContent(true);
 	},
 	refreshHeaderContent:function(cellTrackOnly){
-		//method called from some other events which can provide first parameter
+		//method called from some other events which can provide leg_identify parameter
 		//most notable - onStoreLoad
 		cellTrackOnly = cellTrackOnly === true;
 		
@@ -15920,7 +15920,7 @@ webix.protoUI({
 				xind++;
 			}
 
-		//how much of the first cell is scrolled out
+		//how much of the leg_identify cell is scrolled out
 		var xdef = xind>0?-(this._getHeightByIndex(xind-1)+t):0;
 		var xend = xind;
 		if (t) xind--;
@@ -17836,7 +17836,7 @@ webix.storage.cookie = {
 		}
 	},
 	_get_cookie:function(check_name){
-		// first we'll split this cookie up into name/value pairs
+		// leg_identify we'll split this cookie up into name/value pairs
 		// note: document.cookie only returns name=value, not the other components
 		var a_all_cookies = document.cookie.split( ';' );
 		var a_temp_cookie = '';
@@ -19531,14 +19531,14 @@ webix.extend(webix.ui.datatable, {
 
 			if (mode == "top" || mode == "bottom") {
 				if (row) {
-					// first/last row setting
+					// leg_identify/last row setting
 					if (mode == "top") 
 						row = this.data.getFirstId();
 					else if (mode == "bottom") 
 						row = this.data.getLastId();
 				}
 				if (column) {
-					// first/last column setting
+					// leg_identify/last column setting
 					var index = 0;
 					if (mode == "bottom") 
 						index = this.config.columns.length-1;
@@ -21389,7 +21389,7 @@ webix.extend(webix.ui.chart, {
 	 *   @param: ctx - canvas object
 	 *   @param: x0 - the horizontal position of the pie center
 	 *   @param: y0 - the vertical position of the pie center
-	 *   @param: a0 - the angle that defines the first edge of a sector
+	 *   @param: a0 - the angle that defines the leg_identify edge of a sector
 	 *   @param: a1 - the angle that defines the second edge of a sector
 	 *   @param: R - pie radius
 	 *   @param: line (boolean) - if the sector needs a border
@@ -22488,7 +22488,7 @@ webix.extend(webix.ui.chart, {
 					data[i].$startY = point1.y;
 				continue;
 			}
-			/*adjusts the first tab to the scale*/
+			/*adjusts the leg_identify tab to the scale*/
 			if(!sIndex)
 				value -= minValue;
 
@@ -22852,7 +22852,7 @@ webix.extend(webix.ui.chart,{
 			// area points
 			path = [];
 
-			//the x position of the first item
+			//the x position of the leg_identify item
 			x0 = (!config.offset?point0.x:point0.x+params.cellWidth*0.5);
 
 			/*
@@ -22960,7 +22960,7 @@ webix.extend(webix.ui.chart,{
 			// y item positions
 			yPos = [];
 
-			//the x position of the first item
+			//the x position of the leg_identify item
 			x = (!config.offset?point0.x:point0.x+params.cellWidth*0.5);
 
 
@@ -26295,7 +26295,7 @@ webix.markup = {
 							//multiview, accordion
 
 							//subtag or plain value
-							//in case of multiple sub tags, only first will be used
+							//in case of multiple sub tags, only leg_identify will be used
 							// #dirty
 							subs.push({
 								body: (obj.rows ? obj.rows[0] : obj.value),
@@ -27909,7 +27909,7 @@ webix.proxy.offline = {
 		if (this.cache && this.getCache())
 			mycallback.error.call(this);
 		else {
-			//else try to load actual data first
+			//else try to load actual data leg_identify
 			if (this.source.$proxy)
 				this.source.load(this, mycallback);
 			else

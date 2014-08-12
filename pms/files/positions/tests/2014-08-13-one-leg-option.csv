@@ -1,0 +1,24 @@
+﻿This document was exported from the paperMoney® platform which provides a simulated trading environment. All data contained herein is for educational and entertainment purposes only. TD Ameritrade its subsidiaries and/or affiliates are not responsible for the accuracy of any of these exported data.
+
+Position Statement for D-12644969 (margin) on 8/13/14 02:20:27
+
+None
+Instrument,Qty,Days,Trade Price,Mark,Mrk Chng,Delta,Gamma,Theta,Vega,% Change,P/L Open,P/L Day,BP Effect
+AAPL,,,,,,42.78,4.99,-3.75,12.28,-0.09%,$0.00,$0.00,$0.00
+APPLE INC COM,0,,.00,95.90,-.09,.00,.00,.00,.00,,$0.00,$0.00,
+100 SEP 14 97.5 CALL,+1,38,2.36,2.36,-.16,42.78,4.99,-3.75,12.28,,$0.00,$0.00,
+FB,,,,,,-38.37,-5.12,3.67,-9.03,-1.49%,($2.00),($2.00),"($1,370.10)"
+FACEBOOK INC COM,0,,.00,72.3425,-1.0975,.00,.00,.00,.00,,$0.00,$0.00,
+100 SEP 14 75 CALL,-1,38,1.87,1.89,-.385,-38.37,-5.12,3.67,-9.03,,($2.00),($2.00),
+FSLR,,,,,,30.70,-3.83,4.10,-7.91,-0.42%,($3.00),($3.00),"($1,183.60)"
+FIRST SOLAR INC COM,0,,.00,68.88,-.29,.00,.00,.00,.00,,$0.00,$0.00,
+100 SEP 14 65 PUT,-1,38,1.91,1.94,-.06,30.70,-3.83,4.10,-7.91,,($3.00),($3.00),
+IBM,,,,,,-41.43,4.45,-4.78,23.78,-0.21%,($3.00),($3.00),$0.00
+INTL BUSINESS MACHINES COM,0,,.00,187.068,-.402,.00,.00,.00,.00,,$0.00,$0.00,
+100 SEP 14 185 PUT,+1,38,2.73,2.70,+.035,-41.43,4.45,-4.78,23.78,,($3.00),($3.00),
+
+Cash & Sweep Vehicle,"$99,825.98"
+OVERALL P/L YTD,($8.00)
+BP ADJUSTMENT,$0.00
+OVERNIGHT FUTURES BP,"$97,272.28"
+AVAILABLE DOLLARS,"$97,272.28"
